@@ -19,7 +19,7 @@ var server = http.createServer(function(req, res) {
 
     var body = '<html>' + '<body>' +
                '<h1>Welcome to Baidu Cloud!</h1>' +
-               require('../package.json') +
+               require('package.json') +
                '</body>' + '</html>';
 
     res.end(body);
